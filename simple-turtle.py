@@ -15,7 +15,7 @@ def  rectangle(x, y, width, height):
     goto(x, y)
     pendown()
     setheading(0)  # heading 0 is right, heading 90 is up.
-    for i in range(2):  # range(4) will yield 0, 1, 2, 3
+    for i in range(2):  
         forward(width)
         left(90)
         forward(height)
